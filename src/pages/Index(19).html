@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shorcut icon" href="/src/images/Background/CartaBB_Mayor_x4.webp">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="StyleTarot.css" />
+    <title>Tarot</title>
+  </head>
+  <body>
+    <div class="divImg">
+      <img
+        src="/src/images/Jean_Dodal_Tarot_trump_19.jpg"
+        alt=""
+        width="256"
+        height="476"
+      />
+    </div>
+    <h1>El Sol</h1>
+    <p>
+      El Sol en el tarot simboliza la alegría, la vitalidad y la confianza. Nos
+      invita a disfrutar de la vida, a ser auténticos y a ver el lado positivo
+      de las situaciones. Representa el éxito, la buena fortuna y el despertar
+      espiritual. En resumen, el Sol nos inspira a brillar con confianza y a
+      encontrar la plenitud en nuestra vida.
+    </p>
+    <div class="aInicio">
+      <a href="/index.html"><button>Inicio</button></a>
+    </div>
+    <div id="lunita"></div>
+    <script>
+      var imagen = document.getElementById("lunita");
+
+      imagen.addEventListener("click", function () {
+        alert(
+          "XIX - The Sun : Hace daño masivo a toda la habitación, cura toda la vida faltante del jugador y revela todo el mapa excepto la habitación súper secreta."
+        );
+      });
+    </script>
+  </body>
+</html>

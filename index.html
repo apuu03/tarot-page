@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shorcut icon" href="/src/images/Background/CartaBB_Mayor_x4.webp">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <title>Tarot</title>
+    <script>
+      function VentanaAleatoria() {
+        urls = [
+          "Index(1).html",
+          "Index(2).html",
+          "Index(3).html",
+          "Index(4).html",
+          "Index(5).html",
+          "Index(6).html",
+          "Index(7).html",
+          "Index(8).html",
+          "Index(9).html",
+          "Index(10).html",
+          "Index(11).html",
+          "Index(12).html",
+          "Index(13).html",
+          "Index(14).html",
+          "Index(16).html",
+          "Index(16).html",
+          "Index(17).html",
+          "Index(18).html",
+          "Index(19).html",
+          "Index(20).html",
+          "Index(21).html",
+          "Index(22).html",
+        ];
+
+        iAleatorio = Math.floor(Math.random() * (urls.length));
+
+        urlAleatoria = "./src/pages/" + urls[iAleatorio];
+
+        window.location.href = urlAleatoria;
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido/a a nuestra Página de Tarot Moderna</h1>
+    </header>
+
+    <section class="instructions">
+      <h2>Tira una carta de tarot y descubre tu destino</h2>
+      <p>
+        Haz clic en el botón a continuación para recibir una carta de tarot
+        personalizada.<br />
+        Con cada tirada, el universo te brindará una guía especial para tu
+        camino.<br />
+        Para obtener una experiencia más significativa, recuerda hacer una
+        pregunta o simplemente pensarla.<br />
+        El tarot puede brindarte orientación y claridad en momentos de
+        incertidumbre.
+      </p>
+      <a href="#" onclick="VentanaAleatoria();"
+        ><button>Tirar cartas</button></a
+      >
+      <p>
+        Tarot moderno es el primer sitio web que no usa computadoras para
+        generar aleatoriamente las cartas de las cuáles vas a elegir. Cada día
+        barajo las cartas de Tarot a mano y las pongo en orden en la página.<br />
+        Cuando tú y todos los demás hacen una lectura, las cartas de las cuáles
+        eliges están en el mismo orden en que estuvieron frente a mí.<br />
+        Dado que las cartas Tarot cambian una vez al día, es muy importante
+        esperar 24 horas o un reroll antes de empezar una nueva lectura gratuita.<br />
+        Tus amigos y familiares pueden obtener una lectura de Tarot el mismo día
+        que tú.
+      </p>
+    </section>
+    <h2 class="testimonialh2">Lo que dicen nuestros clientes</h2>
+    <section class="testimonials">
+      <div class="testimonial">
+        <img
+          class="client"
+          src="/src/images/Clients/header.jpg"
+          alt="Cliente 1"
+          height="200px"
+          width="200px"
+        />
+        <h3>Edmund McMillen</h3>
+        <p>
+          "¡Increíble! La página de tarot moderna superó mis expectativas. Las
+          lecturas fueron precisas y me proporcionaron una guía invaluable para
+          tomar decisiones importantes en mi vida. ¡Altamente recomendado!"
+        </p>
+      </div>
+      <div class="testimonial">
+        <img
+          class="client"
+          src="/src/images/Clients/Syd62oww_400x400.jpg"
+          alt="Cliente 2"
+          height="200px"
+          width="200px"
+        />
+        <h3>Florian Himsl</h3>
+        <p>
+          "Estoy realmente impresionado con la calidad de las lecturas de tarot
+          en esta página. Me ayudaron a tener una mejor comprensión de mí mismo
+          y a encontrar dirección en mi camino. ¡Gracias por brindar un servicio
+          tan valioso!"
+        </p>
+      </div>
+    </section>
+    <footer>
+      <div class="divData">
+        <p>
+          Contactanos para una sesion personalizada:<br />
+          Dirección: Street Greed 999, Santa Cruz, California <br />
+          Teléfono: +9999
+        </p>
+        <p>
+          Nuestras Redes:<br />
+          ◉
+          <a target="_blank" href="https://www.facebook.com/tarotmoderno"
+            >Facebook</a
+          >
+          |
+          <a target="_blank" href="https://www.instagram.com/tarotmoderno"
+            >Instagram</a
+          >
+          |
+          <a target="_blank" href="https://www.twitter.com/tarotmoderno"
+            >Twitter</a
+          >
+          ◉
+        </p>
+      </div>
+      <p class="pFooter">© 2023 Tu Página de Tarot Moderna. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

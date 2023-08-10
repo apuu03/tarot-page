@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shorcut icon" href="/src/images/Background/CartaBB_Mayor_x4.webp">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="StyleTarot.css" />
+    <title>Tarot</title>
+  </head>
+  <body>
+    <div class="divImg">
+      <img
+        src="/src/images/Jean_Dodal_Tarot_trump_04.jpg"
+        alt=""
+        width="256"
+        height="476"
+      />
+    </div>
+    <h1>El Emperador</h1>
+    <p>
+      El Emperador es una carta del tarot que representa el poder, la autoridad y el control. Es un símbolo de liderazgo y estabilidad. Esta carta te invita a asumir un rol de liderazgo en tu vida y establecer estructuras sólidas. Representa la capacidad de tomar decisiones firmes y ejercer el poder de manera responsable y justa. Es un recordatorio de tu capacidad para brindar seguridad y estabilidad a ti mismo y a los demás.
+    </p>
+    <div class="aInicio"><a href="/index.html"><button>Inicio</button></a></div>
+    <div id="lunita"></div>
+    <script>
+      var imagen = document.getElementById("lunita");
+
+      imagen.addEventListener("click", function () {
+        alert(
+          "IV - The Emperor: Teletransporta al jugador a la habitación del jefe. Si se usa en la misma habitación en medio de la batalla contra el jefe, igualmente lo teletransporta, reiniciando la batalla. Imposible de obtener en Greed Mode."
+        );
+      });
+    </script>
+  </body>
+</html>
